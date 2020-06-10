@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/05/2020, 09:27:35 PM
+    Author     : tonis
+*/
+
+html {
+
+}
+
+body {
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #808B96;
+	line-height: 1.6em;
+}
+
+header {
+	min-width: 450px;
+	height: auto;
+	background-color: black;
+	color: white;
+	text-decoration: none; 
+	padding: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+}
+
+	header a {
+		color: white;
+		text-decoration: none;
+	}
+
+.titulo-nav-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.titulo {
+	font-size: 64px;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+	.nav ul li {
+		display: inline-block;
+	}
+
+		.nav ul li a {
+			display: block;
+			padding: 0.6rem 1rem;
+		}
+
+		.nav ul li a:hover {
+			background-color: purple; 
+		}
+
+.main {
+	padding-top: 4.7rem;
+}
+
+.menu {
+	background-color: black;
+	width: 18%;
+	height: 600px;
+	opacity: 0.9;
+  	color: white;
+  	display: inline-block;
+  	float: left;
+  	min-width: 60px;
+}
+
+	.menu a {
+		color: white;
+		text-decoration: none;
+	}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	margin: 0; 
+	float: right;
+}
+
+.content-tittab{
+	margin-left: 1.5rem;
+} 
+
+.cont-table {
+	background-color: #ddd;
+	margin-left: 8%;
+	margin-right: 8%;
+	height: auto;
+	margin-bottom: 1.5rem;
+}
+
+thead {
+	background-color: orange;
+}
+tbody{
+	background-color: #eee;	
+}
+
+.contentadd{
+	margin: 1.5rem;
+}
+
+.contentadd a{
+	color: black;
+	text-decoration: none;
+}
+
+.contentadd ul {
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+	.contentadd ul li {
+		display: inline-block;
+	}
+
+		.contentadd ul li a {
+			display: block;
+			padding: 0.6rem 1rem;
+			background-color: #00BB2D; 
+		}
+
+		.contentadd ul li a:hover {
+			background-color: #43A047; 
+		}
+
+.tab {
+	margin: 1.2rem;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+}
+
+.edel a{
+	color: black;
+	text-decoration: none;
+}
+
+.edel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+	.edel ul li {
+		display: inline-block;
+	}
+
+		.edel ul li a {
+			display: block;
+			padding: 0.6rem 1rem;
+			background-color: #ff726f; 
+		}
+
+		.edel ul li a:hover {
+			background-color: red; 
+		}
