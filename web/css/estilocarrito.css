@@ -1,0 +1,263 @@
+html {
+
+}
+
+body {
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+    background-repeat: no-repeat; 
+	background-size: 100% 100%;
+	background-image: url("https://images4.alphacoders.com/105/thumb-1920-1050669.jpg");
+	/*background-color: #808B96;*/ 
+	line-height: 1.6em;
+}
+
+header {
+	min-width: 450px;
+	height: auto;
+	background-color: black;
+	color: white;
+	text-decoration: none; 
+	padding: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+}
+
+	header a {
+		color: white;
+		text-decoration: none;
+	}
+
+.titulo-nav-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.titulo {
+	font-size: 64px;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+	.nav ul li {
+		display: inline-block;
+	}
+
+		.nav ul li a {
+			display: block;
+			padding: 0.6rem 1rem;
+		}
+
+		.nav ul li a:hover {
+			background-color: purple; 
+		}
+
+.main {
+	padding-top: 4.7rem;
+}
+
+.menu {
+	background-color: black;
+	width: 18%;
+	height: 600px;
+	opacity: 0.9;
+  	color: white;
+  	display: inline-block;
+  	float: left;
+  	min-width: 60px;
+}
+
+	.menu a {
+		color: white;
+		text-decoration: none;
+	}
+
+.Container-Tabla-Carrito {
+	background-color: white;
+	width: 80%;
+	height: 1000px;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	margin: 0; 
+	float: right;
+}
+
+/*Para el carrito*/
+
+.carrito {
+	margin: 2rem;
+}
+
+.titulodelcarrito {
+	background-color: orange;
+}
+
+.TProductoC {
+	width: 500px;
+}
+
+.TPrecioC {
+	width: 100px;
+}
+
+.CantidadC {
+	width: 200px;
+}
+
+.TTotalC {
+	width: 250px;
+}
+
+.TProductoC ,.TPrecioC, .TCantidadC, .TTotalC {
+	font-size: 24px;
+	font-family: Calibri;
+	color: white;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1rem; 
+}
+
+.productoprodcar {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.imgproduct, .productnamecar {
+	display: inline-block;
+}
+
+.imgproduct {
+	float: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin: 1rem; 
+}
+
+.productnamecar {
+	font-size: 22px;
+	margin-top: 72px;	
+}
+
+.productopreccar {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	margin-top: auto;
+	margin-bottom: auto; 
+	font-size: 20px;
+}
+
+.productocantcar {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.productcanticar {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	width: 45px;
+	font-size: 18px;
+	padding: 4px;
+}
+
+.productototcar {
+	font-size: 24px;
+	color: orange;
+	padding: 10px;
+}
+
+.productototcar .Borrarproductcarr {
+	display: block;
+	padding: 0.6rem 1rem;
+	text-decoration: none;
+	color: black;
+	background-color: #dbdcdd;
+}
+
+.productototcar .Borrarproductcarr:hover {
+	background-color: red;
+}
+
+.Borrarproductcarr {
+	display: inline-block;
+	float: right;
+}
+
+.preciocar {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+/*
+.Container-Boton-Comprar a:hover {
+	background-color: red;
+}
+
+.Container-Boton-Comprar a {
+	background-color: orange;
+	display: block;
+	padding: 0.6rem 1rem;
+	text-decoration: none;
+	color: black;
+}
+
+*/
+
+.Container-Boton-Comprar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+	.Container-Boton-Comprar ul li {
+		display: inline-block;
+	}
+
+		.Container-Boton-Comprar ul li a {
+			display: block;
+			padding: 0.6rem 1rem;
+			background-color: orange;
+			text-decoration: none;
+			color: black;
+		}
+
+		.Container-Boton-Comprar ul li a:hover {
+			background-color: purple; 
+		}
+
+.BotonComprar {
+	font-size: 22px;
+	float: right;
+	margin-left: 40rem;
+}
+
+.BotonRegresar {
+	font-size: 19px;
+	float: right;
+	margin-right: 1rem;
+}
